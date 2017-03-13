@@ -22,7 +22,7 @@
             <div class="row">
 
                     <p align="center" style="float: none;">
-                    <?php esc_html_e( '&copy;', 'crafter' ); echo ' ' . date_i18n( 'Y' ) . ' - Present <a href="' . get_site_url() . '">' . get_bloginfo( 'name' ) . '</a>';  ?>.
+                    <?php esc_html_e( '&copy;', 'crafter' ); echo ' 2017 - Present <a href="' . get_site_url() . '">' . get_bloginfo( 'name' ) . '</a> ';  ?>.
                     <?php /* printf( esc_html__( 'Designed by %s.', 'crafter' ), '<a href="https://www.quemalabs.com/" rel="designer">Quema Labs</a>' ); */ ?>
                     </p>
 
