@@ -7818,3 +7818,25 @@ Copyright (c) 2015 Daniel Eden
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }
+
+
+/* ---- CUSTOMIZATIONS ----*/
+
+.btn-ql, .btn-ql:hover, .btn-ql:active {
+    font-size: 1em !important;
+}
+
+@media (max-width: 767px) {
+    .welcome-intro .intro-line {
+        font-size: 2rem;
+    }
+
+    .welcome-intro .intro-text {
+        font-size: 1rem;
+        display: block;
+    }
+}
+
+#ql_nav_btn {
+    display: none;
+}
