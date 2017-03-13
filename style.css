@@ -7836,6 +7836,9 @@ Copyright (c) 2015 Daniel Eden
         display: block;
     }
 
+    .section-title {
+        font-size: 1.6rem;
+    }
     #about-me-picture {
         width: 100px;
         height: 100px;
