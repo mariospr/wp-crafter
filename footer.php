@@ -21,15 +21,10 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-md-5">
-                    <p>
-                    <?php esc_html_e( '&copy;', 'crafter' ); echo ' ' . date_i18n( 'Y' ) . ' ' . get_bloginfo( 'name' );  ?>.
-                    <?php printf( esc_html__( 'Designed by %s.', 'crafter' ), '<a href="https://www.quemalabs.com/" rel="designer">Quema Labs</a>' ); ?>
+                    <p align="center" style="float: none;">
+                    <?php esc_html_e( '&copy;', 'crafter' ); echo ' ' . date_i18n( 'Y' ) . ' - Present <a href="' . get_site_url() . '">' . get_bloginfo( 'name' ) . '</a>';  ?>.
+                    <?php /* printf( esc_html__( 'Designed by %s.', 'crafter' ), '<a href="https://www.quemalabs.com/" rel="designer">Quema Labs</a>' ); */ ?>
                     </p>
-                </div>
-                <div class="col-md-7">
-                    <?php get_template_part( '/template-parts/social-menu', 'footer' ); ?>
-                </div>
 
             </div><!-- .row -->
         </div><!-- .container -->
