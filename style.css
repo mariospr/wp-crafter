@@ -7840,3 +7840,23 @@ Copyright (c) 2015 Daniel Eden
 #ql_nav_btn {
     display: none;
 }
+
+.welcome-intro .btn-ql {
+    background-color: #c9731f;
+    color: white;
+    border-bottom: none;
+    text-transform: none;
+}
+
+.welcome-intro .btn-ql:hover {
+    background-color: #de8e40;
+    color: #3e3e3e;
+    -webkit-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+.welcome-intro .btn-ql::before,
+.welcome-intro .btn-ql::after {
+  display: none !important;
+}
