@@ -7826,6 +7826,11 @@ Copyright (c) 2015 Daniel Eden
     font-size: 1em !important;
 }
 
+.welcome-intro .intro-line {
+    font-family: "Gochi Hand";
+    font-size: 4rem
+}
+
 @media (max-width: 767px) {
     .welcome-intro .intro-line {
         font-size: 2rem;
