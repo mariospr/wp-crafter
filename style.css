@@ -7835,6 +7835,11 @@ Copyright (c) 2015 Daniel Eden
         font-size: 1rem;
         display: block;
     }
+
+    #about-me-picture {
+        width: 100px;
+        height: 100px;
+    }
 }
 
 #ql_nav_btn {
